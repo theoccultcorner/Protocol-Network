@@ -14,20 +14,19 @@ const twilioClient = client(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_A
 function generatePrompt(name, phoneNumber, make, model, year, vin, problemDescription) {
   return ` 
 
-  Act as the boss and tell Andrew that we have a job to do. instruct him to
-  follow up with the customer 
-  ${name} 
+  Act as the boss and instruct Andrew to
+  follow up with the customer ${name} 
   at ${phoneNumber}, 
   the vehicle is a ${year} ${make} ${model}
   with a vin number of ${vin}.
  
-  the customer said
-  ${problemDescription}
+  the customer said ${problemDescription}
   give them a call.
   Thank you,
   The Boss.
   `;
 }
+
 
 export default async function (req, res) {
   if (!configuration.apiKey) {
