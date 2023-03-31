@@ -120,7 +120,8 @@ export default function Home() {
           </p>
         </section>
 
-     
+        <iframe src="https://maps.app.goo.gl/DcYGgbdBoKmbdGQK7"></iframe>
+
         <section className="section" id="pricing">
   <div className="container">
     <div className="row">
