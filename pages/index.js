@@ -139,7 +139,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="card-action">
-            <a href="#" className="btn waves-effect waves-light black">Book Now</a>
+            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="card-action">
-            <a href="#" className="btn waves-effect waves-light black">Book Now</a>
+            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="card-action">
-            <a href="#" className="btn waves-effect waves-light black">Book Now</a>
+            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
           </div>
         </div>
       </div>
