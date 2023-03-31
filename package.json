@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
     "dotenv": "^16.0.3",
     "jquery": "^3.6.4",
     "material-icons": "^1.13.4",
