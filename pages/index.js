@@ -53,14 +53,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Protocol Network</title>
    
       </Head>
  {/* Navbar */}
  <nav>
           <div className="nav-wrapper black">
             <a href="#" className="brand-logo">
-              Protocol Network
+               
             </a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
          
@@ -198,7 +198,7 @@ export default function Home() {
             <input
               type="text"
               name="name"
-              placeholder="Enter a name"
+              placeholder="What's your name?"
               value={vehicleInput.name}
               onChange={(e) => setVehicleInput({ ...vehicleInput, name: e.target.value })}
             />
@@ -208,7 +208,7 @@ export default function Home() {
            <input
            type="text"
            name="phoneNumber"
-           placeholder="Enter a phone number"
+           placeholder="What is the best phone number to reach you?"
            value={vehicleInput.phoneNumber}
            onChange={(e) => setVehicleInput({ ...vehicleInput, phoneNumber: e.target.value })}
           />
@@ -218,7 +218,7 @@ export default function Home() {
             <input
               type="text"
               name="make"
-              placeholder="Enter a make"
+              placeholder="What is the Make of the Vehicle?"
               value={vehicleInput.make}
               onChange={(e) => setVehicleInput({ ...vehicleInput, make: e.target.value })}
             />
@@ -228,7 +228,7 @@ export default function Home() {
             <input
               type="text"
               name="model"
-              placeholder="Enter a model"
+              placeholder="What is the model of the Vehicle"
               value={vehicleInput.model}
               onChange={(e) => setVehicleInput({ ...vehicleInput, model: e.target.value })}
             />
@@ -238,7 +238,7 @@ export default function Home() {
             <input
               type="text"
               name="year"
-              placeholder="Enter a year"
+              placeholder="What is the year of the Vehicle?"
               value={vehicleInput.year}
               onChange={(e) => setVehicleInput({ ...vehicleInput, year: e.target.value })}
             />
@@ -248,7 +248,7 @@ export default function Home() {
             <input
               type="text"
               name="vin"
-              placeholder="Enter a VIN"
+              placeholder="Can you provide the VIN NUMBER of the Vehicle?"
               value={vehicleInput.vin}
               onChange={(e) => setVehicleInput({ ...vehicleInput, vin: e.target.value })}
             />
@@ -258,7 +258,7 @@ export default function Home() {
             <input
               type="text"
               name="problemDescription"
-              placeholder="Enter a problem description"
+              placeholder="How can we help you?"
               value={vehicleInput.problemDescription}
               onChange={(e) => setVehicleInput({ ...vehicleInput, problemDescription: e.target.value })}
             />
