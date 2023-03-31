@@ -14,39 +14,23 @@
   font-weight: bold;
   font-style: normal;
 }
+ 
 
-/* Main Styles */
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 20px 60px;
+  height: 100%;
   font-family: "ColfaxAI", Helvetica, sans-serif;
-}
-
-/* Icon */
-.main .icon {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 20px;
-}
-
-/* Heading */
-.main h3 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #202123;
-  margin: 0 0 20px;
-  text-align: center;
 }
 
 /* Form */
 .main form {
   display: flex;
   flex-direction: column;
-  width: 100%;
   max-width: 400px;
+  width: 100%;
 }
 
 .main input[type="text"] {
@@ -90,3 +74,96 @@
   margin-top: 20px;
   text-align: center;
 }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .content > li {
+  padding: 0 2rem;
+  list-style-type: none;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  }
+  
+  .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  }
+  
+  .logo {
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem 0;
+  }
+  
+  .wrapper {
+  background-color: #fff;
+  }
+  
+  @media screen and (min-width: 2560px) {
+  .content > li {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  }
+  
+   
+  .footer {
+      border-top: none;
+  }
+  
+  .logo {
+      height: 11rem;
+      width: 11rem;
+      margin: 1rem 0;
+  }
+  }
+  
+  @media screen and (max-width: 1200px) {
+  .footer {
+  padding: 1.5rem;
+  }
+  }
+  
+  @media screen and (max-width: 767px) {
+  .footer {
+  padding: 1rem;
+  }
+  }
+  
+  @media screen and (max-width: 500px) {
+  .footer {
+  padding: 0.5rem;
+  }
+  
+  
+  .content > li {
+      padding: 0 1rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+  }
+  
+  .logo {
+      height: 4rem;
+      margin: 1rem 0;
+  }
+  
+  .footer {
+      text-align: center;
+  }
+  
+  .copyright {
+      font-size: 1rem;
+      line-height: 1.5rem;
+  }
+  }
+ 
+ 

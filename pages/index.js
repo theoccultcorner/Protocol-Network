@@ -1,8 +1,9 @@
 import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
-import "materialize-css/dist/css/materialize.min.css"; 
  
+import "materialize-css/dist/css/materialize.min.css"; 
+import Footer from "./Footer";
  
 export default function Home() {
   const [vehicleInput, setVehicleInput] = useState({
@@ -107,7 +108,7 @@ export default function Home() {
         
 
         {/* Home section */}
-        <section className={styles.home + " container"}>
+        <section className={styles.main}>
           <h1>Protocol Network</h1>
           <h5>
           25+ Years of Automotive Excellence Right at Your Doorstep
@@ -191,7 +192,8 @@ export default function Home() {
 <section className="z-depth-3 card" id="photo">
  
 </section >
-      <div classNameName={styles.result} id="contact">{result}</div>
+<h1  id="contact">Contact Andrew</h1>
+      <div classNameName={styles.result}>{result}</div>
         <form onSubmit={onSubmit}>
           <label>
             Name:
@@ -267,7 +269,7 @@ export default function Home() {
         </form>
        
       </main>
-    
+     <Footer />
     </div>
   );
 }
