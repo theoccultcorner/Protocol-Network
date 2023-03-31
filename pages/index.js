@@ -133,7 +133,7 @@ export default function Home() {
           </p>
         </section>
 
-        <Maps apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} />
+      <Maps apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} />
 
 
         <section className="section" id="pricing">
