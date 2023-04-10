@@ -61,8 +61,8 @@ export default async function (req, res) {
     // Send the message using Twilio
     const twilioResponse = await twilioClient.messages.create({
       body: messageBody,
-      from: '+18775224714',
-      to: '+18052687686' // Replace with the customer's phone number
+      from: '+15854962102',
+      to: '+18055541361' // Replace with the customer's phone number
     });
 
     res.status(200).json({ result: messageBody });

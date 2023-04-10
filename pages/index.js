@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
-import { GoogleMap, Marker } from '@react-google-maps/api';
+ 
 import React, { useEffect } from 'react';
 import "materialize-css/dist/css/materialize.min.css"; 
 import Footer from "./Footer";
-import Maps from './Maps'
+
 
 export default function Home() {
   const [vehicleInput, setVehicleInput] = useState({
@@ -18,17 +18,7 @@ export default function Home() {
     problemDescription: "",
   });
   const [result, setResult] = useState("");
-  const [location, setLocation] = useState(null);
-
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition((position) => {
-      setLocation({
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      });
-    });
-  }, []);
-
+ 
   
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -132,8 +122,7 @@ export default function Home() {
   3:23-24
           </p>
         </section>
-
-      <Maps apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} />
+ 
 
 
         <section className="section" id="pricing">
