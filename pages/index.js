@@ -60,52 +60,7 @@ export default function Home() {
         <title>Protocol Network</title>
    
       </Head>
- {/* Navbar */}
- <nav>
-          <div className="nav-wrapper black">
-            <a href="#" className="brand-logo">
-               
-            </a>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-         
-            </a>
-            <ul className="right hide-on-med-and-down">
-              <li>
-                <a href="#about">Home</a>
-              </li>
-             
-              <li>
-                <a href="#pricing">Services Pricing</a>
-              </li>
-              
-              <li>
-                <a href="#photo">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        {/* Mobile navbar */}
-        <ul className="sidenav" id="mobile-demo">
-        <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#features">Features</a>
-              </li>
-              <li>
-                <a href="#services">Services</a>
-              </li>
-              <li>
-                <a href="#about">About Us</a>
-              </li>
-              <li>
-                <a href="#photo">Photo Gallery</a>
-              </li>
-        </ul>
+ 
       <main className={styles.main}>
       
         
@@ -122,80 +77,7 @@ export default function Home() {
   3:23-24
           </p>
         </section>
- 
-
-
-        <section className="section" id="pricing">
-  <div className="container">
-    <div className="row">
-      <div className="col s12 m4">
-        <div className="card">
-          <div className="card-content">
-            <span className="card-title">Basic Plan</span>
-            <h3>$50</h3>
-            <p>per service</p>
-            <ul className="pricing-feature-list">
-              <li className="pricing-feature">Oil Change</li>
-              <li className="pricing-feature">Tire Rotation</li>
-              <li className="pricing-feature">Brake Inspection</li>
-              <li className="pricing-feature">Fluid Check & Top-up</li>
-              <li className="pricing-feature">Diagnostic Check</li>
-              <li className="pricing-feature">10% Discount on Parts & Labor</li>
-            </ul>
-          </div>
-          <div className="card-action">
-            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
-          </div>
-        </div>
-      </div>
-      <div className="col s12 m4">
-        <div className="card">
-          <div className="card-content">
-            <span className="card-title">Premium Plan</span>
-            <h3>$150</h3>
-            <p>per service</p>
-            <ul className="pricing-feature-list">
-              <li className="pricing-feature">All Basic Plan Services</li>
-              <li className="pricing-feature">Air Conditioning Service</li>
-              <li className="pricing-feature">Battery Replacement</li>
-              <li className="pricing-feature">Alternator Replacement</li>
-              <li className="pricing-feature">Starter Replacement</li>
-              <li className="pricing-feature">15% Discount on Parts & Labor</li>
-            </ul>
-          </div>
-          <div className="card-action">
-            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
-          </div>
-        </div>
-      </div>
-      <div className="col s12 m4">
-        <div className="card">
-          <div className="card-content">
-            <span className="card-title">Ultimate Plan</span>
-            <h3>$250</h3>
-            <p>per service</p>
-            <ul className="pricing-feature-list">
-              <li className="pricing-feature">All Premium Plan Services</li>
-              <li className="pricing-feature">Transmission Service</li>
-              <li className="pricing-feature">Engine Tune-up</li>
-              <li className="pricing-feature">Fuel Injection Service</li>
-              <li className="pricing-feature">25% Discount on Parts & Labor</li>
-            </ul>
-          </div>
-          <div className="card-action">
-            <a href="#contact" className="btn waves-effect waves-light black">Book Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  
-  
- 
-<section className="z-depth-3 card" id="photo">
- 
-</section >
+        
 <h1  id="contact">Contact Andrew</h1>
       <div classNameName={styles.result}>{result}</div>
         <form onSubmit={onSubmit}>
