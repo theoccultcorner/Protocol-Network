@@ -63,7 +63,7 @@ export default async function (req, res) {
       to: '+18056319553' // Replace with the customer's phone number
     });
     console.log('Twilio response: ', twilioResponse); // Add a console.log statement to show the Twilio response
-    res.status(200).json({ result: messageBody });
+    res.status(200).json({ result: "Thank you for submitting the form! You will be hearing from us shortly!" });
   } catch (error) {
     console.log('Error occurred: ', error); // Add a console.log statement to show the error
     // Consider adjusting the error handling logic for your use case
