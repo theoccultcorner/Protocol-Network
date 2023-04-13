@@ -8,15 +8,7 @@ const Footer = () => {
  
 			<div className={`${styles.footer} container`}>
 			 
-				<div>
-					<ul className={styles.content}>
-						<li>About</li>
-						<li>Contact Us</li>
-						<li>Terms of Use</li>
-						<li>Private Policy</li>
-					 
-					</ul>
-				</div>
+				 
 				<div> 
 			<a class="social" href="https://www.facebook.com/PROTOCOLNETWORK">
     <i class="fa fa-facebook-f"></i>
