@@ -60,7 +60,7 @@ export default async function (req, res) {
     const twilioResponse = await twilioClient.messages.create({
       body: messageBody,
       from: '+18447730571',
-      to: '+18056319553' // Replace with the customer's phone number
+      to: '+18052687687' // Replace with the customer's phone number
     });
     console.log('Twilio response: ', twilioResponse); // Add a console.log statement to show the Twilio response
     res.status(200).json({ result: "Thank you for submitting the form! You will be hearing from us shortly!" });
